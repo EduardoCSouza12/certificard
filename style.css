@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(228deg, #b7a4ed 20.26%, #96e3da 96.03%);
+}
+
+.container {
+  margin: 45px;
+  padding: 40px;
+  background: #ecf4ff;
+  margin: auto;
+  min-width: 320px;
+  max-width: 1000px;
+  margin-top: 55px;
+  border-radius: 20px;
+  box-shadow: 12px 12px 12px #21354f;
+  color: #1c1c1c;
+}
+
+/*.subContainer {
+  height: 200px;
+  margin-left: 20px;
+  margin-top: 20px;
+  background: #96e3da;
+  border-radius: 20px;
+}*/
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 40px; /*460px pra círculo, 90px é bacana*/
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  margin-bottom: -25px;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  background-color: #333439;
+  color: #f6f6f6;
+  border: 2px solid #f6f6f6;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: #96e3da;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  /* direção dos elementos - direção vertical (column-coluna) */
+}
+
+.projetos-titulo {
+  margin-bottom: 10px;
+  list-style: none;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
